@@ -1,23 +1,21 @@
-# DIP Homework 1
+# DIP Homework 3
 
 ## Overview
-This project provides three image processing functionalities:
-1. **Horizontal Flip**
-2. **Quantization Resolution Adjustment**
-3. **Scaling**
+This project provides two image processing functionalities:
+1. **Chromatic Adaptation**
+2. **Image Enhancement**
 
 All output images are stored in the `output/` directory.
 
 ## Files Structure
 ```sh
-|-- inc/           # Header files
-|-- src/           # Source files
-|-- obj/           # Compiled object files (generated during compilation)
-|-- output/        # Output images (generated after execution)
-|-- flip.cpp       # Horizontal flip implementation
-|-- qr.cpp         # Quantization resolution implementation
-|-- scale.cpp      # Scaling implementation
-|-- Makefile       # Build automation script
+|-- inc/               # Header files
+|-- src/               # Source files
+|-- obj/               # Compiled object files (generated during compilation)
+|-- output/            # Output images (generated after execution)
+|-- CA.cpp             # Chromatic Adaptation implementation
+|-- IE.cpp             # Image Enhancement implementation
+|-- Makefile           # Build automation script
 |-- hw1_109511207.pdf  # Report for DIP HW1
 ```
 
@@ -33,22 +31,16 @@ make
 This will compile all source files and generate three executable files: FLIP, QR, and SCALE.
 
 ## Execution
-### 1. Horizontal Flip
-To process an image with horizontal flipping, use:
+### 1. Chromatic Adaptation
+To process an image with chromatic adaptation, use:
 ```sh
-make exe_flip
+make exe_CA
 ```
 
-### 2. Quantization Resolution Adjustment
-To process an image with quantization resolution adjustment, use:
+### 2. Image Enhancement
+To process an image with image enhancement, use:
 ```sh
-make exe_qr
-```
-
-### 3. Scaling
-To process an image with scaling, use:
-```sh
-make exe_scale
+make exe_IE
 ```
 
 ## Clean Up
@@ -59,4 +51,4 @@ make clean
 This will delete the obj/ and output/ directories as well as the executable files.
 
 ## Report
-The file [hw1_109511207.pdf](hw1_109511207.pdf) contains the report for DIP Homework 1.
+The file [hw3_109511207.pdf](hw3_109511207.pdf) contains the report for DIP Homework 3.
