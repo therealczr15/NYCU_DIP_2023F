@@ -33,19 +33,19 @@ make
 This will compile all source files and generate three executable files: FLIP, QR, and SCALE.
 
 ## Execution
-1. Horizontal Flip
+### 1. Horizontal Flip
 To process an image with horizontal flipping, use:
 ```sh
 make exe_flip
 ```
 
-2. Quantization Resolution Adjustment
+### 2. Quantization Resolution Adjustment
 To process an image with quantization resolution adjustment, use:
 ```sh
 make exe_qr
 ```
 
-3. Scaling
+### 3. Scaling
 To process an image with scaling, use:
 ```sh
 make exe_scale
@@ -59,4 +59,4 @@ make clean
 This will delete the obj/ and output/ directories as well as the executable files.
 
 ## Report
-The file [hw1_109511207.pdf](https://github.com/therealczr15/NYCU_DIP_2023F/blob/main/HW1/hw1_109511207.pdf) contains the report for DIP Homework 1.
+The file [hw1_109511207.pdf](hw1_109511207.pdf) contains the report for DIP Homework 1.
