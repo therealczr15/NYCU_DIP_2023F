@@ -10,14 +10,14 @@ All output images are stored in the `output/` directory.
 
 ## Files Structure
 ```sh
-|-- inc/           # Header files
-|-- src/           # Source files
-|-- obj/           # Compiled object files (generated during compilation)
-|-- output/        # Output images (generated after execution)
-|-- flip.cpp       # Horizontal flip implementation
-|-- qr.cpp         # Quantization resolution implementation
-|-- scale.cpp      # Scaling implementation
-|-- Makefile       # Build automation script
+|-- inc/               # Header files
+|-- src/               # Source files
+|-- obj/               # Compiled object files (generated during compilation)
+|-- output/            # Output images (generated after execution)
+|-- flip.cpp           # Horizontal flip implementation
+|-- qr.cpp             # Quantization resolution implementation
+|-- scale.cpp          # Scaling implementation
+|-- Makefile           # Build automation script
 |-- hw1_109511207.pdf  # Report for DIP HW1
 ```
 
