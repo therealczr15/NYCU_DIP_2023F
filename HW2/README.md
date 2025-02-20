@@ -1,24 +1,24 @@
-# DIP Homework 1
+# DIP Homework 2
 
 ## Overview
 This project provides three image processing functionalities:
-1. **Horizontal Flip**
-2. **Quantization Resolution Adjustment**
-3. **Scaling**
+1. **Luminosity Enhancement**
+2. **Sharpness Enhancement**
+3. **Denoise**
 
 All output images are stored in the `output/` directory.
 
 ## Files Structure
 ```sh
-|-- inc/           # Header files
-|-- src/           # Source files
-|-- obj/           # Compiled object files (generated during compilation)
-|-- output/        # Output images (generated after execution)
-|-- flip.cpp       # Horizontal flip implementation
-|-- qr.cpp         # Quantization resolution implementation
-|-- scale.cpp      # Scaling implementation
-|-- Makefile       # Build automation script
-|-- hw1_109511207.pdf  # Report for DIP HW1
+|-- inc/               # Header files
+|-- src/               # Source files
+|-- obj/               # Compiled object files (generated during compilation)
+|-- output/            # Output images (generated after execution)
+|-- LE.cpp             # Luminosity Enhancement implementation
+|-- SE.cpp             # Sharpness Enhancement implementation
+|-- DN.cpp             # Denoise implementation
+|-- Makefile           # Build automation script
+|-- hw2_109511207.pdf  # Report for DIP HW2
 ```
 
 ## Prerequisites
@@ -30,25 +30,25 @@ To compile all source files, run the following command:
 ```sh
 make
 ```
-This will compile all source files and generate three executable files: FLIP, QR, and SCALE.
+This will compile all source files and generate three executable files: LE, SE, and DN.
 
 ## Execution
-### 1. Horizontal Flip
-To process an image with horizontal flipping, use:
+### 1. Luminosity Enhancement
+To process an image with luminosity enhancement, use:
 ```sh
-make exe_flip
+make exe_LE
 ```
 
-### 2. Quantization Resolution Adjustment
-To process an image with quantization resolution adjustment, use:
+### 2. Sharpness Enhancement
+To process an image with sharpness enhancement, use:
 ```sh
-make exe_qr
+make exe_SE
 ```
 
-### 3. Scaling
-To process an image with scaling, use:
+### 3. Denoise
+To process an image with denoise, use:
 ```sh
-make exe_scale
+make exe_DN
 ```
 
 ## Clean Up
@@ -59,4 +59,4 @@ make clean
 This will delete the obj/ and output/ directories as well as the executable files.
 
 ## Report
-The file [hw1_109511207.pdf](hw1_109511207.pdf) contains the report for DIP Homework 1.
+The file [hw2_109511207.pdf](hw2_109511207.pdf) contains the report for DIP Homework 2.
