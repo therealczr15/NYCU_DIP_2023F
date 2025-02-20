@@ -1,1 +1,1 @@
-# NYCU_DIP_2023F
+# NYCU Digital Image Processing 2023 Fall
