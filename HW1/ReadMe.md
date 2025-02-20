@@ -54,7 +54,7 @@ make exe_scale
 ## Clean Up
 To remove all compiled object files and generated output images, run:
 ```sh
-make exe_clean
+make clean
 ```
 This will delete the obj/ and output/ directories as well as the executable files.
 
