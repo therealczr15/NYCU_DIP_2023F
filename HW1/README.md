@@ -60,3 +60,48 @@ This will delete the obj/ and output/ directories as well as the executable file
 
 ## Report
 The file [hw1_109511207.pdf](hw1_109511207.pdf) contains the report for DIP Homework 1.
+
+## Results
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Horizontal Flip</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Before Flip</b></td>
+    <td align="center"><b>After Flip</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input1.bmp" width="500"></td>
+    <td style="text-align:center;"><img src="output/output1_flip.bmp" width="500"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input2.bmp" width="500"></td>
+    <td style="text-align:center;"><img src="output/output2_flip.bmp" width="500"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4" style="text-align:center;">Quantization Resolution</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Before</b></td>
+    <td align="center"><b>After_1</b></td>
+    <td align="center"><b>After_2</b></td>
+    <td align="center"><b>After_3</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input1.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output1_1.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output1_2.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output1_3.bmp" width="250"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input2.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output2_1.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output2_2.bmp" width="250"></td>
+    <td style="text-align:center;"><img src="output/output2_3.bmp" width="250"></td>
+  </tr>
+</table>
+
