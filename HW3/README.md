@@ -57,32 +57,32 @@ The file [hw3_109511207.pdf](hw3_109511207.pdf) contains the report for DIP Home
 
 <table>
   <tr>
-    <th></th>
+    <th style="text-align:center;"></th>
     <th>input1.bmp</th>
     <th>input2.bmp</th>
     <th>input3.bmp</th>
     <th>input4.bmp</th>
   </tr>
   <tr>
-    <td style="text-align: center;"><center><b>Original</b></center></td>
-    <td><img src="input/input1.bmp" width="250"></td>
-    <td><img src="input/input2.bmp" width="250"></td>
-    <td><img src="input/input3.bmp" width="250"></td>
-    <td><img src="input/input4.bmp" width="250"></td>
+    <td style="text-align: center; font-weight: bold;">Original</td>
+    <td><img src="input/input1.bmp" width="225"></td>
+    <td><img src="input/input2.bmp" width="225"></td>
+    <td><img src="input/input3.bmp" width="225"></td>
+    <td><img src="input/input4.bmp" width="225"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><center><b>Chromatic Adaptation</b></center></td>
-    <td><img src="output/output1_1.bmp" width="250"></td>
-    <td><img src="output/output2_1.bmp" width="250"></td>
-    <td><img src="output/output3_1.bmp" width="250"></td>
-    <td><img src="output/output4_1.bmp" width="250"></td>
+    <td style="text-align: center; font-weight: bold;">Chromatic Adaptation</td>
+    <td><img src="output/output1_1.bmp" width="225"></td>
+    <td><img src="output/output2_1.bmp" width="225"></td>
+    <td><img src="output/output3_1.bmp" width="225"></td>
+    <td><img src="output/output4_1.bmp" width="225"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><center><b>Image Enhancement</b></center></td>
-    <td><img src="output/output1_2.bmp" width="250"></td>
-    <td><img src="output/output2_2.bmp" width="250"></td>
-    <td><img src="output/output3_2.bmp" width="250"></td>
-    <td><img src="output/output4_2.bmp" width="250"></td>
+    <td style="text-align: center; font-weight: bold;">Image Enhancement</td>
+    <td><img src="output/output1_2.bmp" width="225"></td>
+    <td><img src="output/output2_2.bmp" width="225"></td>
+    <td><img src="output/output3_2.bmp" width="225"></td>
+    <td><img src="output/output4_2.bmp" width="225"></td>
   </tr>
 </table>
 
