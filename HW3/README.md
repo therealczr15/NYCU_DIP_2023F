@@ -10,13 +10,14 @@ All output images are stored in the `output/` directory.
 ## Files Structure
 ```sh
 |-- inc/               # Header files
+|-- input/             # Input images
+|-- output/            # Output images (generated after execution)
 |-- src/               # Source files
 |-- obj/               # Compiled object files (generated during compilation)
-|-- output/            # Output images (generated after execution)
 |-- CA.cpp             # Chromatic Adaptation implementation
 |-- IE.cpp             # Image Enhancement implementation
 |-- Makefile           # Build automation script
-|-- hw1_109511207.pdf  # Report for DIP HW1
+|-- hw3_109511207.pdf  # Report for DIP HW3
 ```
 
 ## Prerequisites
@@ -28,7 +29,7 @@ To compile all source files, run the following command:
 ```sh
 make
 ```
-This will compile all source files and generate three executable files: FLIP, QR, and SCALE.
+This will compile all source files and generate two executable files: CA, IE.
 
 ## Execution
 ### 1. Chromatic Adaptation
