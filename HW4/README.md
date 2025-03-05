@@ -91,3 +91,34 @@ This will delete the obj/ and output/ directories as well as the executable file
 The file [hw4_109511207.pdf](hw4_109511207.pdf) contains the report for DIP Homework 4.
 
 ## Results
+
+<table>
+  <tr>
+    <th colspan="3" style="text-align:center;">input1</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Original</b></td>
+    <td align="center"><b>Motion Blur</b></td>
+    <td align="center"><b>Image Restoration</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input1_ori.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="input/input1.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output1.bmp" width="333"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">input2</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Motion Blur</b></td>
+    <td align="center"><b>Image Restoration</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input2.bmp" width="500"></td>
+    <td style="text-align:center;"><img src="output/output2.bmp" width="500"></td>
+  </tr>
+</table>
+
