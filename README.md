@@ -1,4 +1,4 @@
-# NYCU Image Processing 2023 Fall
+# Fall 2023 NYCU Image Processing
 
 ## Course Information
 - Title : Image Processing (DIP)
