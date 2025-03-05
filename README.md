@@ -6,7 +6,7 @@
 - Professor : Sheng-Jyh, Wang
 
 ## Score
-- Total Score : 89.80 (100%)
+- Total Score : 89.55 (100%)
 
 |HW            |Topic                                                    |Score   |Weight  |
 |:-------------|:--------------------------------------------------------|:------:|:------:|
