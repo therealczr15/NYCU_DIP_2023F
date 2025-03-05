@@ -60,3 +60,53 @@ This will delete the obj/ and output/ directories as well as the executable file
 
 ## Report
 The file [hw2_109511207.pdf](hw2_109511207.pdf) contains the report for DIP Homework 2.
+
+## Results
+
+<table>
+  <tr>
+    <th colspan="3" style="text-align:center;">Luminosity Enhancement</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Before Enhancement</b></td>
+    <td align="center"><b>After Enhancement 1</b></td>
+    <td align="center"><b>After Enhancement 2</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input1.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output1_1.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output1_2.bmp" width="333"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3" style="text-align:center;">Sharpness Enhancement</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Before Enhancement</b></td>
+    <td align="center"><b>After Enhancement 1</b></td>
+    <td align="center"><b>After Enhancement 2</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input2.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output2_1.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output2_2.bmp" width="333"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3" style="text-align:center;">Denoise</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Before Denoise</b></td>
+    <td align="center"><b>After Denoise 1</b></td>
+    <td align="center"><b>After Denoise 2</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="input/input3.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output3_1.bmp" width="333"></td>
+    <td style="text-align:center;"><img src="output/output3_2.bmp" width="333"></td>
+  </tr>
+</table>
