@@ -11,9 +11,10 @@ All output images are stored in the `output/` directory.
 ## Files Structure
 ```sh
 |-- inc/               # Header files
+|-- input/             # Input images
+|-- output/            # Output images (generated after execution)
 |-- src/               # Source files
 |-- obj/               # Compiled object files (generated during compilation)
-|-- output/            # Output images (generated after execution)
 |-- flip.cpp           # Horizontal flip implementation
 |-- qr.cpp             # Quantization resolution implementation
 |-- scale.cpp          # Scaling implementation
